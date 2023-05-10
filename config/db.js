@@ -7,4 +7,4 @@ const pool = mysql.createPool({
   database: "airline",
 });
 
-module.exports = connection.promise();
+module.exports = pool.promise();
