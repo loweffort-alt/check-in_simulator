@@ -2,13 +2,14 @@ require("dotenv").config();
 const morgan = require("morgan");
 const express = require("express");
 const app = express();
+const routes = require("./routes/flightsRoutes");
 
 //Middleware
 app.use(morgan("dev"));
 app.use(express.json());
 
 //Routes
-app.use("/flight", require("./routes/flightsRoutes"));
+app.use("/flight", routes);
 
 //Handle Errors
 app.use((err, req, res, next) => {
