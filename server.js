@@ -13,9 +13,15 @@ app.use("/flight", routes);
 
 //Handle Errors
 app.use((err, req, res, next) => {
-  console.log(err.stack);
-  console.log(err.name);
   console.log(err.code);
+
+  if (err.message == "Flight doesn't exist") {
+    return res.json({ code: 404, data: {} });
+  }
+
+  if (err.code) {
+    return res.json({ code: 400, errors: "could not connect to db" });
+  }
 
   return res.status(err.code).send(err.message);
 });
