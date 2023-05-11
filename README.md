@@ -3,6 +3,9 @@
 Hola 👋 Bsale!, esta es mi solución al proyecto de simular el check-in de un aeropuerto. ✈
 
 Para ejecutar desde bash puedes usar el siguiente comando en la carpeta contenedora del proyecto cambiando los valores por los indicados en el pdf:
+```bash
+npm install
+```
 
 ```bash
 HOST=host USER=user PASSWORD=password DB_NAME=db_name node server.js
