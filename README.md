@@ -4,15 +4,12 @@ Hola 👋 Bsale!, esta es mi solución al proyecto de simular el check-in de un 
 
 ## Tabla de contenido
 
-- [Reto Bsale](#reto-bsale)
-  - [Tabla de contenido](#tabla-de-contenido)
-  - [Creando la base de datos](#creando-la-base-de-datos)
-    - [Creando un servidor de pruebas](#creando-un-servidor-de-pruebas)
-  - [Creando el repositorio y el servidor](#creando-el-repositorio-y-el-servidor)
-  - [Conectando con la base de datos](#conectando-con-la-base-de-datos)
-  - [Creando Rutas y Controladores](#creando-rutas-y-controladores)
-  - [Despliege en Railway](#despliege-en-railway)
-- [🥳🎉✨🎉🥳✨🥳🎉LISTO! 🥳🎉✨🎉🥳✨🎉🥳](#listo-)
+- [Creando la base de datos](#creando-la-base-de-datos)
+  - [Creando un servidor de pruebas](#creando-un-servidor-de-pruebas)
+- [Creando el repositorio y el servidor](#creando-el-repositorio-y-el-servidor)
+- [Conectando con la base de datos](#conectando-con-la-base-de-datos)
+- [Creando Rutas y Controladores](#creando-rutas-y-controladores)
+- [Despliege en Railway](#despliege-en-railway)
 
 ## Creando la base de datos
 
@@ -181,4 +178,3 @@ El router lo recibo en el server.js y ya está configurado mi ruta.
 Uso esta alternativa a Heroku y AWS porque en ambos me piden tarjeta y tengo un problema porque no lo pueden autenticar 😢. Es la primera vez que uso Railway pero me sorprendió lo fácil que fue, sólo agregué las variables de entorno y todo listo! 😄.
 
 # 🥳🎉✨🎉🥳✨🥳🎉LISTO! 🥳🎉✨🎉🥳✨🎉🥳
-
