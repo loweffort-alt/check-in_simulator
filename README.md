@@ -8,6 +8,8 @@ Para ejecutar desde bash puedes usar el siguiente comando en la carpeta contened
 HOST=host USER=user PASSWORD=password DB_NAME=db_name node server.js
 ```
 
+Si quieres visitar el proyecto desplegado, da click [aquí](https://bsale-reto-production.up.railway.app/flights/1/passengers)
+
 ## Tabla de contenido
 
 - [Creando la base de datos](#creando-la-base-de-datos)
