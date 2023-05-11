@@ -9,7 +9,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 //Routes
-app.use("/flight", routes);
+app.use("/flights", routes);
 
 //Handle Errors
 app.use((err, req, res, next) => {
