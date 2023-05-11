@@ -13,11 +13,7 @@ Hola 👋 Bsale!, esta es mi solución al proyecto de simular el check-in de un 
 
 ## Creando la base de datos
 
----
-
 Para empezar el proyecto tuve que copiar la base de datos por que sabía que por momentos habría saturación de querys y me sentía más seguro trabajando desde una copia local.
-
-![Untitled](https://ibb.co/jWqVd0F)
 
 Una vez copiada la base de datos, empezé a jugar con los querys hasta lograr traer en una sola tabla los datos que requería la prueba en su mismo orden y con el camelCase ya aplicado.
 
@@ -27,15 +23,11 @@ Una vez copiada la base de datos, empezé a jugar con los querys hasta lograr tr
 
 Creé un servidor local para ir jugando con node y la base de datos para hacerme una idea de los archivos, paquetes y manera de organizarlos antes de crear el repo oficial e ir trabajando por prueba y error.
 
-![Untitled](https://ibb.co/YyWkS5Z)
-
 Una vez que ya establecí la arquitectura de carpetas y el correcto llamado de la base de datos, empezé con la prueba oficial.
 
 ---
 
 ## Creando el repositorio y el servidor
-
----
 
 Creé el repositorio en github y lo cloné en mi local donde creé las carpetas y archivos en el orden establecido en mi zona de pruebas.
 
@@ -72,8 +64,6 @@ app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
 ```
 
 ## Conectando con la base de datos
-
----
 
 En config/db.js hize la conexión con la base de datos local
 
@@ -131,8 +121,6 @@ SELECT   p.passenger_id AS passengerId,
 ```
 
 ## Creando Rutas y Controladores
-
----
 
 Toca crear el archivo ./controllers/flightControllers.js donde requiero el schema creado antes y ejecutar los querys.
 
