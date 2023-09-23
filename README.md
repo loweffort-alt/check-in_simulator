@@ -1,6 +1,4 @@
-# Reto Bsale
-
-Hola 👋 Bsale!, esta es mi solución al proyecto de simular el check-in de un aeropuerto. ✈
+Hola 👋!, esta es mi solución al proyecto de simular el check-in de un aeropuerto. ✈
 
 Para ejecutar desde bash puedes usar el siguiente comando en la carpeta contenedora del proyecto cambiando los valores por los indicados en el pdf:
 ```bash
