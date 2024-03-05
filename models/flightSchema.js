@@ -9,7 +9,7 @@ class Flight {
       landing_date_time AS landingDateTime,     
       landing_airport AS landingAirport,     
       airplane_id AS airplaneId 
-    FROM airline.flight  
+    FROM flight  
       WHERE flight_id = ${id}
     LIMIT 1`;
 
